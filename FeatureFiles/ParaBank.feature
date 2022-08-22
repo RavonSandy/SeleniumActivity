@@ -11,7 +11,7 @@ Feature: Orange Hrm Login
       | Admin | admin123 |
     
     
-Feature: Orange HRM Admin
+#Feature: Orange HRM Admin
 
   Scenario: Add User in Admin Tab
     Given Click add user
@@ -21,7 +21,7 @@ Feature: Orange HRM Admin
     Then Click Save button
     
     
-Feature: Orange HRM Search User
+#Feature: Orange HRM Search User
 
   Scenario: Search User in Admin Tab
     Given Navigate to the admin page
@@ -30,7 +30,7 @@ Feature: Orange HRM Search User
     And Select the status
     Then Click Search button
 
-Feature: Orange HRM PIM Tab Add Employee
+#Feature: Orange HRM PIM Tab Add Employee
 
   Scenario Outline: Add Employee in PIM  
     Given Navigate to the PIM tab
@@ -42,7 +42,7 @@ Feature: Orange HRM PIM Tab Add Employee
       | Santhosh | G |
     
     
-Feature: Orange HRM Directory Tab
+#Feature: Orange HRM Directory Tab
 
   Scenario: Logging out the application
     Given Navigate to the Home page tab
